@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ingrish",
+  title: "Daily Ingrish - Newsletter",
   description: "English in your inbox, every morning",
 };
 
