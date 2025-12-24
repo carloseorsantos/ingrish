@@ -37,7 +37,7 @@ export default function NewsletterPage() {
         console.log("Failed to subscribe");
       }
 
-      router.push("/newsletter/subscribed");
+      router.push("/subscribed");
     } catch (e) {
       console.log(e);
     } finally {
@@ -49,7 +49,7 @@ export default function NewsletterPage() {
     <div className="w-full h-dvh flex items-center">
       <div className="m-auto flex flex-col gap-3 md:gap-5 justify-center p-4">
         <span className="text-[#333] font-bold text-md md:text-xl max-w-75 md:max-w-xl w-full text-center">
-          Daily Ingrish
+          🌻 Daily Ingrish 🌻 
         </span>
         <h1 className="text-[#333] font-bold text-2xl md:text-4xl max-w-75 md:max-w-xl w-full text-center">
           Inglês para quem não tem tempo de aprender inglês.
